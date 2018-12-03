@@ -7,12 +7,23 @@ https://simpleisbetterthancomplex.com/series/beginners-guide/1.11/
 List of Useful URL Patterns
 https://simpleisbetterthancomplex.com/references/2016/10/10/url-patterns.html
 
-Fonts
-https://fonts.google.com/
-
-Bootstrap 4 (front-end framework)
-https://getbootstrap.com/
-
 Django package - django-widget-tweaks
 https://pypi.org/project/django-widget-tweaks/
 https://simpleisbetterthancomplex.com/2015/12/04/package-of-the-week-django-widget-tweaks.html
+
+Static/
+
+Images
+https://www.toptal.com/designers/subtlepatterns/
+
+Fonts
+https://fonts.google.com/
+
+Bootstrap 4 (front-end framework) (CSS and JS)
+https://getbootstrap.com/
+
+JQuery (JS)
+https://jquery.com/
+
+Popper (JS)
+https://popper.js.org/
