@@ -1,0 +1,37 @@
+{% load widget_tweaks %}
+
+{% csrf_token %}
+
+{% for field in form %}
+<div class="form-group">
+  {{ field.label_tag }}
+
+  {% if form.is_bound %}
+    {% if field.errors %}
+
+      <!-- widget_tweaks && bootstrap4 -->
+      {% render_field field class="form-control is-invalid" %}
+      <!-- bootstrap4 -->
+      {% for error in field.errors %}
+      <div class="invalid-feedback">
+        {{ error }}
+      </div>
+      {% endfor %}
+
+    {% else %}
+      <!-- widget_tweaks && bootstrap4 -->
+      {% render_field field class="form-control is-valid" %}
+    {% endif %}
+  {% else %}
+    <!-- widget_tweaks -->
+    {% render_field field class="form-control" %}
+  {% endif %}
+
+
+  {% if field.help_text %}
+  <small class="form-text text-muted">
+    {{ field.help_text }}
+  </small>
+  {% endif %}
+</div>
+{% endfor %}

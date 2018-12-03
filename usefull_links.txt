@@ -1,0 +1,18 @@
+Virtual Enviroment installation on Ubuntu 18.04 (Python 3)
+https://github.com/fiduswriter/fiduswriter/wiki/Installation-on-Ubuntu-18.04-(Python-3)
+
+A Complete Beginner's Guide to Django
+https://simpleisbetterthancomplex.com/series/beginners-guide/1.11/
+
+List of Useful URL Patterns
+https://simpleisbetterthancomplex.com/references/2016/10/10/url-patterns.html
+
+Fonts
+https://fonts.google.com/
+
+Bootstrap 4 (front-end framework)
+https://getbootstrap.com/
+
+Django package - django-widget-tweaks
+https://pypi.org/project/django-widget-tweaks/
+https://simpleisbetterthancomplex.com/2015/12/04/package-of-the-week-django-widget-tweaks.html
